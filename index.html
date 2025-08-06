@@ -61,6 +61,22 @@
     .hire-button:hover, .resume-button:hover {
       background: #9500c4;
     }
+    .resume-button-fixed {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #b900f4;
+      padding: 12px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      z-index: 100;
+      box-shadow: 0 0 15px rgba(185, 0, 244, 0.5);
+    }
+    .resume-button-fixed:hover {
+      background: #9500c4;
+    }
     .section {
       padding: 60px 20px;
       max-width: 1000px;
@@ -130,12 +146,15 @@
     <h1>PORTFOLIO</h1>
     <p>Graphic Designer</p>
     <p>Rakhiyabanu Khanapuri</p>
-    <a href="mailto:rakhiyakhanapuri@gmail.com" class="hire-button">Hire Me</a>
-    <a href="https://drive.google.com/file/d/1DPInLHeMa5ZWlhRSLNFR8ZoiWmR96eTW/view?usp=sharing" 
-   class="resume-button" target="_blank">
-   Download Resume
+    <a 
+  href="mailto:rakhiyakhanapuri@gmail.com?subject=Graphic%20Design%20Project%20Inquiry&body=Hi%20Rakhiya,%0D%0AI'm%20interested%20in%20working%20with%20you%20on%20a%20design%20project." 
+  class="hire-button" 
+  title="rakhiyakhanapuri@gmail.com">
+  ✉️ Hire Me
+
 </a>
 
+    <a href="https://drive.google.com/file/d/1DPInLHeMa5ZWlhRSLNFR8ZoiWmR96eTW/view?usp=sharing" class="resume-button" target="_blank">Download Resume</a>
   </header>
 
   <section class="section about">
@@ -207,9 +226,10 @@
     </div>
   </section>
 
+  <a href="https://drive.google.com/file/d/1DPInLHeMa5ZWlhRSLNFR8ZoiWmR96eTW/view?usp=sharing" class="resume-button-fixed" target="_blank">📄 Resume</a>
+
   <footer>
     Crafted with 💜 by Rakhiya
   </footer>
 </body>
 </html>
-
